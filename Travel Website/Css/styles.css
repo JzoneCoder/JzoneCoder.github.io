@@ -322,6 +322,7 @@ video {
   }
 }
 
+
 @media (max-width: 567px) {
   .header .content {
     width: 100%;
@@ -402,9 +403,21 @@ video {
   }
 }
 
+.back-home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
 @media (max-width: 768px) {
   .about .row {
     grid-template-columns: 1fr;
+  }
+  .back-home-container {
+    justify-content: center;
+
   }
 
   .about .swiper-container {
